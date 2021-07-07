@@ -1,3 +1,8 @@
+/*
+*功能：每0.5秒RGB灯换一种颜色，颜色是RGB中选1或2种，共6色。
+*材料：RGB模块，MEGA2560，杜邦线公对母若干
+*GND接2，RGB接543，上传
+*/
 int a[3]={0};
 void setup() {
   // put your setup code here, to run once:
